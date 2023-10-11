@@ -30,6 +30,13 @@ const projectsData = [
     repo_url: "https://github.com/rzh4321/nba-trivia",
     live_url: "https://hoopsiq.netlify.app/",
   },
+  {
+    title: "NBA CourtSide",
+    description: "An NBA box score website.",
+    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
+    repo_url: "https://github.com/rzh4321/nba-boxscore",
+    live_url: "",
+  },
 ];
 
 export default function ProjectsPage() {
