@@ -51,14 +51,12 @@ function HomeText() {
   return (
     <>
       <p>
-        Hi! I'm Ricky Zhang, a passionate <b>self-starter.</b>
+        Hi! I'm Ricky Zhang
       </p>
       <p>I love to learn and make things.</p>
       <hr className="my-4 dark:border-gray-200" />
       <p>
-        I always have the urge to learn and create, now I am eager to work and
-        contribute to the exciting dynamic world of web development and software
-        engineering.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam maxime natus quod! Odio tempore sequi similique totam iste dicta, accusantium dolorem recusandae! Quisquam harum aperiam magnam, quas exercitationem quasi placeat.
       </p>
     </>
   );

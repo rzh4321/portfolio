@@ -36,12 +36,13 @@ function SideBarList() {
   const [activeNavLink, setActiveNavLink] = useState("/");
   const pathname = usePathname();
 
-  // Set activeNavLink from pathname
+  // set activeNavLink from pathname
   useEffect(() => {
     setActiveNavLink(pathname);
   });
 
   return (
+    // loop over link objects, pass active url as a prop
     <ul className="flex flex-row md:flex-col">
       {Object.keys(navLinks).map((link) => (
         <SideBarLink key={link} link={link} activeNavLink={activeNavLink} />
@@ -52,6 +53,7 @@ function SideBarList() {
 
 function SideBarLink({ link, activeNavLink }) {
   return (
+    // display the link, change its color if active
     <li
       key={link}
       className={`rounded px-2 py-1 hover:text-black 
@@ -59,7 +61,7 @@ function SideBarLink({ link, activeNavLink }) {
     >
       <Link
         href={link}
-        className={`font-medium hover:text-black dark:hover:text-gray-200 focus-brand
+        className={`font-medium hover:text-black dark:hover:text-gray-200
           ${
             activeNavLink === link
               ? "dark:text-gray-200 text-black"

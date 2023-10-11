@@ -28,7 +28,7 @@ const projectsData = [
     description: "An NBA trivia game.",
     stack: ["React", "Typescript", "HTML", "CSS"],
     repo_url: "https://github.com/rzh4321/nba-trivia",
-    live_url: "https://main--superb-queijadas-f013fc.netlify.app/",
+    live_url: "https://hoopsiq.netlify.app/",
   },
 ];
 
@@ -65,7 +65,7 @@ function ProjectsListItem({ project }) {
 function ProjectsListItemText({ project }) {
   return (
     <>
-      <Link href={project.live_url} className="no-underline">
+      <Link href={project.live_url} target="_blank" className="no-underline">
         <h3 className="my-0">{project.title}</h3>
       </Link>
       <p>{project.description}</p>
@@ -91,6 +91,7 @@ function ProjectsListItemUrl({ url, text }) {
   return (
     <Link
       href={url}
+      target="_blank"
       className="flex items-center justify-between md:gap-8 border rounded-lg p-2 w-full md:w-auto font-normal 
     hover:bg-neutral-100 no-underline dark:hover:bg-neutral-800 dark:border-neutral-700"
     >
