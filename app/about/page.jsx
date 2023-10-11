@@ -1,5 +1,3 @@
-import Head from "next/head";
-
 export const metadata = {
   title: "About | Ricky Zhang",
 };
@@ -10,7 +8,7 @@ export default function AboutPage() {
       <article className="prose px-2 py-4 md:py-0 dark:prose-invert">
         <h1 className="font-medium my-2 md:mt-0">About me</h1>
         <p>
-          Hi! I'm Ricky Zhang, a junior at New York University studying computer science.
+          {`Hi! I'm Ricky Zhang, a junior at New York University studying computer science.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
