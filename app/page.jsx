@@ -51,7 +51,7 @@ function HomeText() {
   return (
     <>
       <p>
-        Hi! I'm Ricky Zhang
+        {`Hi! I'm Ricky Zhang`}
       </p>
       <p>I love to learn and make things.</p>
       <hr className="my-4 dark:border-gray-200" />
