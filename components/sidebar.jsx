@@ -39,7 +39,7 @@ function SideBarList() {
   // set activeNavLink from pathname
   useEffect(() => {
     setActiveNavLink(pathname);
-  });
+  }, [pathname]);
 
   return (
     // loop over link objects, pass active url as a prop
