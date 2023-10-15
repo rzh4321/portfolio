@@ -8,15 +8,13 @@ const projectsData = [
   {
     title: "Retiform",
     description:
-      "Full-stack Facebook-clone website, developed RESTful API and frontend on Next.js, deployed on Vercel.",
+      "A full-stack Facebook-clone website with both the backend and frontend developed with the Next.js 13 app router.",
     stack: [
       "React",
       "Next.js",
       "JavaScript",
       "MongoDB",
-      "Node",
-      "Express",
-      "JWT",
+      "Mongoose",
       "Next-auth",
       "Bootstrap",
     ],
@@ -24,18 +22,18 @@ const projectsData = [
     live_url: "https://retiform.vercel.app/",
   },
   {
+    title: "NBA CourtSide",
+    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
+    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
+    repo_url: "https://github.com/rzh4321/nba-boxscore",
+    live_url: "https://nba-courtside.vercel.app/",
+  },
+  {
     title: "HoopsIQ",
-    description: "An NBA trivia game.",
+    description: "A single-page application of an NBA trivia game developed with React and Vite.",
     stack: ["React", "Typescript", "HTML", "CSS"],
     repo_url: "https://github.com/rzh4321/nba-trivia",
     live_url: "https://hoopsiq.netlify.app/",
-  },
-  {
-    title: "NBA CourtSide",
-    description: "An NBA box score website.",
-    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
-    repo_url: "https://github.com/rzh4321/nba-boxscore",
-    live_url: "",
   },
 ];
 
@@ -43,7 +41,7 @@ export default function ProjectsPage() {
   return (
     <article className="prose px-2 py-4 md:py-0 dark:prose-invert">
       <h1 className="font-medium my-2 md:mt-0">Projects</h1>
-      <p>Here are some of my projects</p>
+      <p>Here are some of my projects:</p>
       <hr className="my-4 dark:border-gray-200" />
       <ProjectsList />
     </article>

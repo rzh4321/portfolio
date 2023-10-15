@@ -9,14 +9,14 @@ export default function ContactPage() {
     <>
       <article className="prose px-2 py-4 md:py-0 dark:prose-invert">
         <h1 className="font-medium my-2 md:mt-0">Contact</h1>
-        <p>Ways of getting in touch with me</p>
+        <p>Ways of getting in touch with me:</p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
           Here is a copy of my{" "}
-          <a href="/Resume.pdf" download>
+          <a href="/ricky_zhang_resume.pdf" download>
             resume
           </a>
-          {". (PDF, 75Kb)"}
+          {". (PDF, 124Kb)"}
         </p>
         <ContactButtons />
       </article>

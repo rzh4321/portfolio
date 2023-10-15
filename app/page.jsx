@@ -51,12 +51,12 @@ function HomeText() {
   return (
     <>
       <p>
-        {`Hi! I'm Ricky Zhang`}
+        {`Hi! I'm Ricky Zhang, a third year computer science major at New York University.`}
       </p>
-      <p>I love to learn and make things.</p>
+      <p>{`I'm a dedicated and driven self-starter with a passion for learning and creating new things in the realm of software engineering and web development.`}</p>
       <hr className="my-4 dark:border-gray-200" />
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam maxime natus quod! Odio tempore sequi similique totam iste dicta, accusantium dolorem recusandae! Quisquam harum aperiam magnam, quas exercitationem quasi placeat.
+      {`I am particularly interested in building full-stack web applications. Looking forward, I am excited to expand my skills even further by diving into mobile development.`}
       </p>
     </>
   );
