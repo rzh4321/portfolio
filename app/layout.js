@@ -7,10 +7,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body>
         <div
-          className="mx-4 mt-4 md:mt-32 mb-20 max-w-4xl flex flex-col 
+          className="mx-4 md:mt-32 mb-20 max-w-4xl flex flex-col 
             md:flex-row md:justify-center md:gap-4 md:mx-auto
             "
         >

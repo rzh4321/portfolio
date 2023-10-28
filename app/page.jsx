@@ -21,7 +21,7 @@ function HomeHeader() {
   return (
     <div className="flex flex-row items-center gap-4">
       <Image
-        src="/images/GithubIcon.png"
+        src="/images/profile.jpg"
         className="rounded-full my-0"
         alt="Picture"
         width={100}
