@@ -13,9 +13,9 @@ export default function AboutPage() {
         <hr className="my-4 dark:border-gray-200" />
         <p>
           {`I've been fascinated by the potential of code to transform ideas into reality ever since
-          building my first "Hello World!" program, which has led me to continuously explore, learn,
+          building my first web application for a school project, which has led me to continuously explore, learn,
           and create. I didn't pick up web development until my second semester as a sophomore, and since
-          then, I've had a lot of fun developing various skills in various programming languages and technologies,
+          then, I've had a lot of fun developing various skills in different programming languages and technologies,
           always excited to tackle the next challenge in order to expand my knowledge.`}
         </p>
         <p>
