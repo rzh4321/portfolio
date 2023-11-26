@@ -22,6 +22,13 @@ const projectsData = [
     live_url: "https://retiform.vercel.app/",
   },
   {
+    title: "Jobs Scraper",
+    description: "A customizable web scraping tool that automates data extraction from job posting websites.",
+    stack: ["Python", "Beautiful Soup", "Selenium", "Pandas"],
+    repo_url: "https://github.com/rzh4321/job-scraper",
+    live_url: "",
+  },
+  {
     title: "NBA CourtSide",
     description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
     stack: ["React", "Next.js", "Typescript", "ChakraUI"],

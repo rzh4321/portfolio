@@ -28,10 +28,8 @@ export default function AboutPage() {
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was Retiform, a full-stack Facebook-clone website. The backend was
-          built with a combination of server actions and serverless RESTful API routes on Next.js. The frontend
-          was also built on Next.js. I am currently working on an NBA box score app with a focus on a clean, minimal
-          interface to view game statistics and top performers.`}
+          {`My most recent personal project was NBA Courtside, a website to view live game statistics and leaders. 
+          I am currently working on a web scraper project that extracts data from job postings and exports it to Microsoft Excel.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
@@ -39,7 +37,7 @@ export default function AboutPage() {
         <a href="/ricky_zhang_resume.pdf" download>
             resume
           </a>
-          {". (PDF, 124Kb)"}
+          {". (PDF, 122Kb)"}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
