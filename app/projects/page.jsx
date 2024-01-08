@@ -29,6 +29,13 @@ const projectsData = [
     live_url: "",
   },
   {
+    title: "Covered (In progress)",
+    description: "An AI cover letter generator using OpenAI's API.",
+    stack: ["React", "Next.js", "Typescript", "OpenAI API","Tailwind"],
+    repo_url: "https://github.com/rzh4321/ai-cover-letter",
+    live_url: "",
+  },
+  {
     title: "NBA CourtSide",
     description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
     stack: ["React", "Next.js", "Typescript", "ChakraUI"],

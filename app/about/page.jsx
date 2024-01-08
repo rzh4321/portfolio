@@ -23,13 +23,12 @@ export default function AboutPage() {
           tackle several projects, each one a chance to learn something new and interesting to stretch my 
           capabilities as a programmer. But what excites me the most is the potential to apply my passion and skills in the
           real world. My goal is to be more than just a student -- I want to be a contributor and a collaborator while still
-          being able to create things I love. I believe that transitioning from learning to doing will elevate me to the
-          next level as a software engineer.`}
+          being able to create things I love.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was NBA Courtside, a website to view live game statistics and leaders. 
-          I am currently working on a web scraper project that extracts data from job postings and exports it to Microsoft Excel.`}
+          {`My most recent personal project was a job scraper that scrapes job postings from websites such as Indeed and ZipRecruiter using Python. 
+          I am currently working on a AI cover letter generator website using Next.js.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
