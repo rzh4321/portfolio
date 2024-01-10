@@ -29,11 +29,11 @@ const projectsData = [
     live_url: "",
   },
   {
-    title: "Covered (In progress)",
+    title: "Covered",
     description: "An AI cover letter generator using OpenAI's API.",
     stack: ["React", "Next.js", "Typescript", "OpenAI API","Tailwind"],
     repo_url: "https://github.com/rzh4321/ai-cover-letter",
-    live_url: "",
+    live_url: "https://covered-ai.vercel.app/",
   },
   {
     title: "NBA CourtSide",

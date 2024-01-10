@@ -27,8 +27,7 @@ export default function AboutPage() {
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was a job scraper that scrapes job postings from websites such as Indeed and ZipRecruiter using Python. 
-          I am currently working on a AI cover letter generator website using Next.js.`}
+          {`My most recent personal project was an AI cover letter generator website built using Next.js and shadcn components.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
