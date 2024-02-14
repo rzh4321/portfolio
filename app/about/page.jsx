@@ -15,19 +15,19 @@ export default function AboutPage() {
           {`I've been fascinated by the potential of code to transform ideas into reality ever since
           building my first web application for a school project, which has led me to continuously explore, learn,
           and create. I didn't pick up web development until my second semester as a sophomore, and since
-          then, I've had a lot of fun developing various skills in different programming languages and technologies,
+          then, I've had a lot of fun building a variety of projects with various languages and technologies,
           always excited to tackle the next challenge in order to expand my knowledge.`}
         </p>
         <p>
           {`So far, my journey has been a rollercoaster of rewarding experiences. I've had the opportunity to
-          tackle several projects, each one a chance to learn something new and interesting to stretch my 
+          tackle several projects, each one a chance to learn something completely new and interesting to stretch my 
           capabilities as a programmer. But what excites me the most is the potential to apply my passion and skills in the
           real world. My goal is to be more than just a student -- I want to be a contributor and a collaborator while still
           being able to create things I love.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was an AI cover letter generator website built using Next.js and shadcn components.`}
+          {`My most recent personal project was a Spotify quiz game built using Next.js and Spotify's Web API.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
@@ -35,7 +35,7 @@ export default function AboutPage() {
         <a href="/ricky_zhang_resume.pdf" download>
             resume
           </a>
-          {". (PDF, 122Kb)"}
+          {". (PDF, 154Kb)"}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>

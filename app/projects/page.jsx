@@ -6,6 +6,22 @@ export const metadata = {
 
 const projectsData = [
   {
+    title: "Politigram",
+    description:
+      "Created for and submitted to the DevFest '24 Hackathon at Columbia University. A full-stack social media website with a slider to filter content based on a political spectrum (liberal vs conservative) using machine learning.",
+    stack: [
+      "Next.js",
+      "BERT",
+      "Google Cloud Vision",
+      "MongoDB",
+      "Mongoose",
+      "Next-auth",
+      "Tailwind",
+    ],
+    repo_url: "https://github.com/fzinnah17/columbia-devfest24",
+    live_url: "https://devfest-24.vercel.app/",
+  },
+  {
     title: "Retiform",
     description:
       "A full-stack Facebook-clone website with both the backend and frontend developed with the Next.js 13 app router.",
@@ -22,6 +38,13 @@ const projectsData = [
     live_url: "https://retiform.vercel.app/",
   },
   {
+    title: "NBA CourtSide",
+    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
+    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
+    repo_url: "https://github.com/rzh4321/nba-boxscore",
+    live_url: "https://nba-courtside.vercel.app/",
+  },
+  {
     title: "Jobs Scraper",
     description: "A customizable web scraping tool that automates data extraction from job posting websites.",
     stack: ["Python", "Beautiful Soup", "Selenium", "Pandas"],
@@ -34,13 +57,6 @@ const projectsData = [
     stack: ["React", "Next.js", "Typescript", "OpenAI API","Tailwind"],
     repo_url: "https://github.com/rzh4321/ai-cover-letter",
     live_url: "https://covered-ai.vercel.app/",
-  },
-  {
-    title: "NBA CourtSide",
-    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
-    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
-    repo_url: "https://github.com/rzh4321/nba-boxscore",
-    live_url: "https://nba-courtside.vercel.app/",
   },
   {
     title: "HoopsIQ",
