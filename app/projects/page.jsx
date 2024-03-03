@@ -22,6 +22,13 @@ const projectsData = [
     live_url: "https://devfest-24.vercel.app/",
   },
   {
+    title: "Guessify",
+    description: "A music guessing game for Spotify playlists.",
+    stack: ["React", "Next.js", "Typescript", "Tailwind", "MySQL", "Prisma"],
+    repo_url: "https://github.com/rzh4321/spotify-game",
+    live_url: "https://guessify-game.vercel.app/",
+  },
+  {
     title: "Retiform",
     description:
       "A full-stack Facebook-clone website with both the backend and frontend developed with the Next.js 13 app router.",
