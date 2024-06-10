@@ -22,9 +22,16 @@ const projectsData = [
     live_url: "https://devfest-24.vercel.app/",
   },
   {
+    title: "Trailermeter",
+    description: "A Rotten Tomatoes score guessing game from random movie trailers with a variety of movie categories.",
+    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "Supabase", "Drizzle", "Selenium"],
+    repo_url: "https://github.com/rzh4321/trailer-game",
+    live_url: "https://trailermeter.vercel.app/",
+  },
+  {
     title: "Guessify",
-    description: "A music guessing game for Spotify playlists.",
-    stack: ["React", "Next.js", "Typescript", "Tailwind", "MySQL", "Prisma"],
+    description: "A music guessing game for user-created and Spotify-curated playlists.",
+    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "MySQL", "Prisma"],
     repo_url: "https://github.com/rzh4321/spotify-game",
     live_url: "https://guessify-game.vercel.app/",
   },

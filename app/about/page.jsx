@@ -27,7 +27,7 @@ export default function AboutPage() {
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was a Spotify quiz game built using Next.js and Spotify's Web API. I am currently learning mobile web development as well as the basics of machine learning.`}
+          {`My most recent personal project was a Rotten Tomatoes score guessing game built using Next.js and a Python web scraper. I am currently learning mobile web development as well as the basics of machine learning.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
