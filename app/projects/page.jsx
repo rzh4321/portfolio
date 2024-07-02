@@ -24,7 +24,7 @@ const projectsData = [
   {
     title: "Trailermeter",
     description: "A Rotten Tomatoes score guessing game from random movie trailers with a variety of movie categories.",
-    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "Supabase", "Drizzle", "Selenium"],
+    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "Supabase", "Drizzle", "Selenium", "GitHub Actions"],
     repo_url: "https://github.com/rzh4321/trailer-game",
     live_url: "https://trailermeter.vercel.app/",
   },
