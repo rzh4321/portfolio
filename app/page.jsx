@@ -21,11 +21,11 @@ function HomeHeader() {
   return (
     <div className="flex flex-row items-center gap-4">
       <Image
-        src="/images/profile.jpg"
-        className="rounded-full my-0"
+        src="/images/profile.png"
+        className="rounded-full my-0 max-h-[110px] object-cover"
         alt="Picture"
-        width={100}
-        height={100}
+        width={110}
+        height={110}
       />
       <div className="flex flex-col">
         <h1 className="font-medium my-2">Ricky Zhang</h1>
