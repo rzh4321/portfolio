@@ -6,6 +6,22 @@ export const metadata = {
 
 const projectsData = [
   {
+    title: "Shadowdash",
+    description: "A high-performance build automation tool that improves upon the Ninja build system.",
+    stack: ["C++", "CMake", "CircleCI", "Ninja"],
+    repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
+    live_url: "",
+
+  },
+  {
+    title: "SoHo Shopper",
+    description: "A web application for optimizing shopping routes in SoHo, NYC.",
+    stack: ["React", "Vite", "Typescript", "Express", "MongoDB"],
+    repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
+    live_url: "",
+
+  },
+  {
     title: "Guessify",
     description: "A music guessing game for user-created and Spotify-curated playlists.",
     stack: ["React", "Next.js", "Typescript", "TailwindCSS", "MySQL", "Redis", "Prisma"],

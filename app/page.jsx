@@ -53,10 +53,10 @@ function HomeText() {
       <p>
         {`Hi! I'm Ricky Zhang, a third year computer science major at New York University.`}
       </p>
-      <p>{`I'm a dedicated and driven self-starter with a passion for learning and creating new things in the realm of software engineering and web development.`}</p>
+      <p>{`I'm a dedicated and driven self-starter with a passion for learning and developing solutions in the realm of software engineering and web development.`}</p>
       <hr className="my-4 dark:border-gray-200" />
       <p>
-      {`I am particularly interested in building full-stack web applications. Looking forward, I am excited to expand my skills even further by diving into mobile app development.`}
+      {`I am particularly interested in building full-stack web applications, although I have been recently exploring projects beyond web development, including lower-level programming with languages like C, C++, and Java to better understand core computing concepts and system architecture.`}
       </p>
     </>
   );

@@ -29,7 +29,7 @@ export default function AboutPage() {
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
-          {`My most recent personal project was a `}<Link target="_blank" href={'https://trailermeter.vercel.app/'}>Rotten Tomatoes score guessing game</Link> {`built using Next.js and a Python web scraper, inspired by my passion for movies. I am currently learning mobile web development as well as the basics of machine learning.`}
+          {`My most recent project is a `}<Link target="_blank" href={'https://trailermeter.vercel.app/'}>a high-performance build system that improves upon the Ninja build system</Link>{`. I am currently exploring project ideas beyond web development, preferably those involving C/C++/Java.`}
         </p>
         <hr className="my-4 dark:border-gray-200" />
         <p>
