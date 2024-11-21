@@ -16,7 +16,7 @@ const projectsData = [
   {
     title: "SoHo Shopper",
     description: "A web application for optimizing shopping routes in SoHo, NYC.",
-    stack: ["React", "Vite", "Typescript", "Express", "MongoDB"],
+    stack: ["React", "Vite", "Typescript", "Express", "MongoDB", "AWS"],
     repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
     live_url: "",
 
