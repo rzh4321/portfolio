@@ -18,7 +18,7 @@ const projectsData = [
     description: "A web application for optimizing shopping routes in SoHo, NYC.",
     stack: ["React", "Vite", "Typescript", "Express", "MongoDB", "AWS"],
     repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
-    live_url: "",
+    live_url: "https://sohoshopper.xyz/",
 
   },
   {
@@ -36,6 +36,13 @@ const projectsData = [
     live_url: "https://trailermeter.vercel.app/",
   },
   {
+    title: "NBA CourtSide",
+    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
+    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
+    repo_url: "https://github.com/rzh4321/nba-boxscore",
+    live_url: "https://nba-courtside.vercel.app/",
+  },
+  {
     title: "Politigram",
     description:
       "Created for and submitted to the DevFest '24 Hackathon at Columbia University. A full-stack social media website with a slider to filter content based on a political spectrum (liberal vs conservative) using machine learning.",
@@ -50,13 +57,6 @@ const projectsData = [
     ],
     repo_url: "https://github.com/fzinnah17/columbia-devfest24",
     live_url: "https://devfest-24.vercel.app/",
-  },
-  {
-    title: "NBA CourtSide",
-    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
-    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
-    repo_url: "https://github.com/rzh4321/nba-boxscore",
-    live_url: "https://nba-courtside.vercel.app/",
   },
   {
     title: "Retiform",
