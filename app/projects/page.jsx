@@ -29,18 +29,18 @@ const projectsData = [
     live_url: "https://guessify-game.vercel.app/",
   },
   {
+    title: "NBA CourtSide",
+    description: "A responsive web application featuring a clean, minimal interface for real-time NBA statistics and sports betting simulations.",
+    stack: ["React", "Next.js", "Typescript", "ChakraUI", "Tailwind", "AWS", "Spring Boot", "Docker", "GitHub Actions"],
+    repo_url: "https://github.com/rzh4321/nba-boxscore",
+    live_url: "https://nba-courtside.vercel.app/",
+  },
+  {
     title: "Trailermeter",
     description: "A Rotten Tomatoes score guessing game from random movie trailers with a variety of movie categories.",
     stack: ["React", "Next.js", "Typescript", "TailwindCSS", "Supabase", "Drizzle", "Selenium", "GitHub Actions"],
     repo_url: "https://github.com/rzh4321/trailer-game",
     live_url: "https://trailermeter.vercel.app/",
-  },
-  {
-    title: "NBA CourtSide",
-    description: "A responsive web application featuring a clean, minimal interface using ChakraUI for real-time NBA statistics, top performers, and box scores.",
-    stack: ["React", "Next.js", "Typescript", "ChakraUI"],
-    repo_url: "https://github.com/rzh4321/nba-boxscore",
-    live_url: "https://nba-courtside.vercel.app/",
   },
   {
     title: "Politigram",
