@@ -7,7 +7,7 @@ export const metadata = {
 const projectsData = [
   {
     title: "Shadowdash",
-    description: "A high-performance build automation tool that improves upon the Ninja build system.",
+    description: "A high-performance build automation tool that improves upon the Ninja build system. Using Object-oriented programming and Macro Metaprogramming in C++, Shadowdash serves as an alternative to Ninja for projects that have large manifest files.",
     stack: ["C++", "CMake", "CircleCI", "Ninja"],
     repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
     live_url: "",
@@ -15,29 +15,29 @@ const projectsData = [
   },
   {
     title: "SoHo Shopper",
-    description: "A web application for optimizing shopping routes in SoHo, NYC.",
+    description: "A MERN stack web application for optimizing shopping routes in SoHo, NYC. It utilizes the nearest neighbor algorithm for determining the shortest path that visits all user-selected stores. It is currently deployed on a DigitalOcean droplet.",
     stack: ["React", "Vite", "Typescript", "Express", "MongoDB", "AWS"],
     repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
     live_url: "https://sohoshopper.xyz/",
 
   },
   {
-    title: "Guessify",
-    description: "A music guessing game for user-created and Spotify-curated playlists.",
-    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "MySQL", "Redis", "Prisma"],
-    repo_url: "https://github.com/rzh4321/spotify-game",
-    live_url: "https://guessify-game.vercel.app/",
-  },
-  {
     title: "NBA CourtSide",
-    description: "A responsive web application featuring a clean, minimal interface for real-time NBA statistics and sports betting simulations.",
+    description: "A responsive web application featuring a clean, minimal interface for real-time NBA statistics and sports betting simulations. It utilizes a Python web scraper hosted on an EC2 instance for scraping live betting information, and a RESTful API using Spring Boot with WebSocket integration for real-time data delivery.",
     stack: ["React", "Next.js", "Typescript", "ChakraUI", "Tailwind", "AWS", "Spring Boot", "Docker", "GitHub Actions"],
     repo_url: "https://github.com/rzh4321/nba-boxscore",
     live_url: "https://nba-courtside.vercel.app/",
   },
   {
+    title: "Guessify",
+    description: "A music guessing game for user-created and Spotify-curated playlists. It utilizes the Spotify Web API for playlist/song information, Redis for caching large playlists, and a MySQL cloud database for storing leaderboard statistics.",
+    stack: ["React", "Next.js", "Typescript", "TailwindCSS", "MySQL", "Redis", "Prisma"],
+    repo_url: "https://github.com/rzh4321/spotify-game",
+    live_url: "https://guessify-game.vercel.app/",
+  },
+  {
     title: "Trailermeter",
-    description: "A Rotten Tomatoes score guessing game from random movie trailers with a variety of movie categories.",
+    description: "A Rotten Tomatoes score guessing game from random movie trailers with a variety of movie categories. A Python web scraper using Selenium is used for collecting up-to-date Rotten Tomatoes scores.",
     stack: ["React", "Next.js", "Typescript", "TailwindCSS", "Supabase", "Drizzle", "Selenium", "GitHub Actions"],
     repo_url: "https://github.com/rzh4321/trailer-game",
     live_url: "https://trailermeter.vercel.app/",
