@@ -6,6 +6,14 @@ export const metadata = {
 
 const projectsData = [
   {
+    title: "AMC SeatAlert",
+    description: "A Google Chrome extension that notifies users when their desired seat becomes available. It utilizes an automated python web scraper running on an AWS EC2 instance and a FastAPI server.",
+    stack: ["C++", "CMake", "CircleCI", "Ninja"],
+    repo_url: "https://github.com/agiledev-students-fall2024/4-final-project-avocado-the-study-space-tracker",
+    live_url: "",
+
+  },
+  {
     title: "Shadowdash",
     description: "A high-performance build automation tool that improves upon the Ninja build system. Using Object-oriented programming and Macro Metaprogramming in C++, Shadowdash serves as an alternative to Ninja for projects that have large manifest files.",
     stack: ["C++", "CMake", "CircleCI", "Ninja"],
